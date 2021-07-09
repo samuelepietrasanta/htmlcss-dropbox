@@ -35,6 +35,10 @@ h1{
     font-size: 4em;
 }
 
+h2{
+    font-size: 2em;
+}
+
 #header-button{
     margin-left: 30px;
 }
@@ -42,6 +46,16 @@ h1{
 #jumbo-section{
     background-color: lightblue;
     padding:90px 110px 0 110px;
+}
+
+#business-plan-section{
+    margin-top:150px;
+    
+}
+
+#fatturazione{
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -89,4 +103,34 @@ h1{
     position: absolute;
     right:0;
     top: 50px;
+}
+
+.section-dimensions{
+    width:80%;
+    margin:0 auto;
+}
+
+.column{
+    width:25%;
+    padding-left: 20px;
+}
+
+.single-team{
+    border: solid black 0.5px;
+
+}
+
+.upper-column{
+    border: .5px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.fa-check{
+    color:royalblue;
+}
+
+.lower-column{
+    border:.5px solid black;
+    padding-top: 15px;
+    border-top: none;
 }
