@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -27,9 +31,19 @@ header ul li{
     font-weight: bold;
 }
 
+h1{
+    font-size: 4em;
+}
+
 #header-button{
     margin-left: 30px;
 }
+
+#jumbo-section{
+    background-color: lightblue;
+    padding:90px 110px 0 110px;
+}
+
 
 
 .clearfix::after{
@@ -55,4 +69,24 @@ header ul li{
 .bg-blue{
     background-color: rgb(0, 68, 255);
     color: white;
+}
+
+.row{
+    padding-top: 40px;
+}
+
+.relative{
+    position: relative;
+}
+
+.left-txt{
+    width:35%;
+    padding-bottom: 150px;
+}
+
+.right-img{
+    width:65%;
+    position: absolute;
+    right:0;
+    top: 50px;
 }
