@@ -74,6 +74,14 @@ li{
     padding-top: 20px;
 }
 
+#partner-text h3{
+    padding-bottom: 25px;
+}
+
+#affiliated-company  h2{
+    margin-bottom:20px;
+}
+
 #header-button{
     margin-left: 30px;
 }
@@ -100,6 +108,42 @@ li{
 
 #vertical-column{
     height:1100px;
+}
+
+#partner-section{
+    margin-top:100px;
+}
+
+#partner-image{
+    width: 55%;
+}
+
+#partner-text{
+    width:43%;
+    padding: 25px;
+}
+
+#partner-button{
+    background-color: white;
+    margin-top: 15px;
+    border:.5px solid black;
+}
+
+#dropbox-business-section{
+    margin-top: 70px;
+}
+
+#affiliated-company{
+    margin-top: 150px;
+}
+
+#designit-row{
+    margin-top: 35px;
+    height: 400px;
+}
+
+#central-designit{
+    padding:25px;
 }
 
 
@@ -203,4 +247,73 @@ li{
     border: 1px solid black;
     border-top: none;
     padding: 20px;
+}
+
+.paragraph-font{
+    font-size: 0.9em;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.row-element{
+    width:30%;
+    padding:20px;
+}
+
+.central-row-element{
+    margin:0 20px;
+}
+
+.aside-companies{
+    height: 100%;
+    width: 30%;
+    background-color: royalblue;
+}
+
+.single-company{
+    width: 50%;
+    height: 50%;
+    padding:50px;
+}
+
+.company-logo{
+    width: 75%;
+}
+
+.bg-light-green{
+    background-color: lightgreen;
+}
+
+.bg-bordeaux{
+    background-color: rgb(136, 18, 57);
+}
+
+.bg-turquoise{
+    background-color: rgb(20, 135, 202);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-light-grey{
+    background-color: rgb(238, 234, 234);
+}
+
+.bg-dark-red{
+    background-color: rgb(196, 1, 1);
+}
+
+.bg-light-blue{
+    background-color: lightblue;
+}
+
+.bg-dark-blue{
+    background-color: rgb(26, 0, 175);
+}
+
+.bg-gold{
+    background-color: gold;
 }
