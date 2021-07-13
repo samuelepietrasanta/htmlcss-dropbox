@@ -47,6 +47,11 @@ li{
     list-style-type: none;
 }
 
+button{
+    padding:5px 50px;
+    border: none;
+}
+
 .upper-column ul{
     padding-top:20px;
 }
@@ -171,6 +176,21 @@ li{
     height: 100%;
     padding: 150px 0;
 }
+
+#faq{
+    margin-top: 70px;
+    height: 500px;
+}
+
+#faq h2{
+    padding-bottom: 40px;
+    border-bottom: .5px solid black;
+}
+
+.single-question h5{
+    display: inline-block;
+}
+
 
 
 .clearfix::after{
@@ -345,4 +365,15 @@ li{
 
 .bg-gold{
     background-color: gold;
+}
+
+.single-question{
+    padding: 35px 0;
+    border-bottom: .5px solid black;
+    position: relative;
+}
+
+.single-question span{
+    position: absolute;
+    right:20px;
 }
